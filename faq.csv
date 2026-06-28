@@ -1,0 +1,65 @@
+question,answer,category
+What is CodeAlpha?,CodeAlpha is an innovative technology company dedicated to empowering developers and businesses with cutting-edge AI solutions and internship programs.,About
+What services does CodeAlpha offer?,"CodeAlpha offers AI development services, internship programs, software solutions, machine learning consulting, and developer training programs.",About
+Who founded CodeAlpha?,CodeAlpha was founded by a team of passionate AI engineers and educators committed to making AI education accessible to all developers.,About
+What is CodeAlpha's mission?,CodeAlpha's mission is to bridge the gap between academic learning and real-world AI development by providing hands-on internship experiences.,About
+How do I contact CodeAlpha support?,You can reach our support team via email at support@codealpha.tech or through the live chat on our website. Our team responds within 24 hours.,Contact
+What are your business hours?,"Our support team is available Monday to Friday, 9 AM to 6 PM (PKT). For urgent issues, you can use our 24/7 automated support portal.",Contact
+Where is CodeAlpha located?,CodeAlpha is headquartered in Pakistan and operates globally through remote teams and online platforms.,Contact
+How do I reset my password?,Go to the login page and click 'Forgot Password'. Enter your registered email address and you'll receive a reset link within 5 minutes.,Account
+How do I create a new account?,Click the 'Sign Up' button on our homepage. Fill in your name, email, and password. Verify your email address and your account will be ready to use.,Account
+Can I change my email address?,Yes. Log into your account and navigate to Settings > Profile then click 'Change Email'. You'll need to verify the new email address before the change takes effect.,Account
+How do I update my profile information?,Go to Settings > Profile and click Edit. You can update your name, photo, bio, and contact details. Click Save when done.,Account
+How do I delete my account?,To delete your account go to Settings > Account > Delete Account. This action is permanent and cannot be undone. All your data will be removed.,Account
+What payment methods do you accept?,"We accept all major credit and debit cards including Visa, Mastercard, and Amex, as well as PayPal, bank transfers, JazzCash, and EasyPaisa for Pakistan-based clients.",Billing
+How do I upgrade my subscription plan?,Go to Dashboard > Billing > Upgrade Plan. Choose your desired plan and complete the payment process. Your upgrade takes effect immediately.,Billing
+Can I get a refund for my payment?,Yes. We offer a 30-day money-back guarantee for all plans. Contact our billing team at billing@codealpha.tech within 30 days of your purchase.,Billing
+How do I download my payment invoice?,Log into your account and go to Settings > Billing > Invoice History. You can download any invoice as a PDF from there.,Billing
+How do I cancel my subscription?,Go to Settings > Billing > Cancel Subscription. Your access will remain active until the end of the current billing period.,Billing
+What is the CodeAlpha internship program about?,"The CodeAlpha internship program is a structured 1-month program where students complete AI and ML projects, gain hands-on experience, and receive a certificate upon completion.",Internship
+How do I apply for the CodeAlpha internship?,Visit our website at codealpha.tech and fill out the internship application form. Shortlisted candidates will be contacted via email within 5 business days.,Internship
+Is the CodeAlpha internship paid?,"The CodeAlpha internship is currently unpaid but provides a verified certificate, LinkedIn recommendation, and portfolio-worthy projects for your resume.",Internship
+What tasks are assigned during the internship?,"Interns work on real-world AI projects such as FAQ chatbots, object detection systems, music generation tools, language translation applications, and more.",Internship
+How do I submit my internship tasks?,Submit your completed tasks via the intern portal or email them to internship@codealpha.tech with your intern ID and task title in the subject line.,Internship
+What is the deadline for internship task submission?,All tasks must be submitted before the last day of your internship month. Extensions are not typically granted unless approved by your supervisor.,Internship
+What certificate will I receive after internship?,You will receive a digitally signed and verifiable certificate of completion from CodeAlpha which can be shared directly to LinkedIn.,Internship
+How long is the internship program?,The CodeAlpha internship program runs for one month with flexible hours allowing students to complete tasks at their own pace.,Internship
+What technologies are used in the internship projects?,"Interns use Python, Streamlit, OpenCV, RapidFuzz, Pandas, and other modern Python libraries depending on their assigned tasks.",Internship
+What is RapidFuzz used for?,RapidFuzz is a fast fuzzy string matching library for Python. In this chatbot it compares your question against FAQ entries to find the most similar answer.,Technology
+What is Streamlit?,Streamlit is an open-source Python framework for building interactive web applications for data science and machine learning with very minimal code.,Technology
+What is fuzzy string matching?,Fuzzy string matching finds strings that are approximately equal rather than exactly equal. It handles typos, word order changes, and partial matches effectively.,Technology
+What programming language is used in this chatbot?,This chatbot is built entirely in Python 3.14 and uses Streamlit for the user interface and RapidFuzz for intelligent FAQ matching.,Technology
+What is semantic similarity?,Semantic similarity measures how alike two pieces of text are in meaning. Higher similarity means the texts convey similar ideas even with different wording.,Technology
+What is natural language processing?,Natural language processing or NLP is a branch of AI that enables computers to understand, interpret, and respond to human language in a meaningful way.,Technology
+How does the FAQ matching work in this chatbot?,Your question is normalized and compared against all FAQ entries using multiple RapidFuzz scoring algorithms. The best match above a confidence threshold is returned as the answer.,Technology
+What is WRatio in RapidFuzz?,WRatio is a weighted combination scorer in RapidFuzz that applies several fuzzy matching algorithms and returns the best weighted result. It is the most balanced general-purpose scorer.,Technology
+How does the confidence score work in this chatbot?,"The confidence score shows how closely your question matched a FAQ entry. Green badge means 75% or higher and the answer is reliable. Yellow means 55 to 74 percent and is the closest match found. Red means below 55% and no good match was found.",Features
+Can I export my chat history?,Yes. Click the Export button in the sidebar. Your full conversation with all timestamps will be downloaded as a text file.,Features
+How do I clear the chat history?,Click the Clear Chat button in the sidebar. This removes all messages from the current session. Previously exported files are not affected.,Features
+Does this chatbot support voice input?,Yes. Click the microphone button at the bottom right of the screen to speak your question. The chatbot will transcribe your speech and respond automatically. This requires Chrome browser.,Features
+Does this chatbot support voice output?,Yes. Enable the Voice Output toggle in the sidebar and the bot will read its responses aloud using your browser's built-in text to speech engine.,Features
+Can I search the FAQ database directly?,Yes. Go to the FAQ Search tab in the sidebar to browse and search all available questions by keyword or category. Click any question to send it to the chat.,Features
+How many FAQ questions are available?,The chatbot comes preloaded with over 60 FAQ entries across multiple categories including About, Billing, Internship, Technology, Features, and Troubleshooting.,Features
+How do I add new FAQ questions?,Open the faq.csv file in the project folder and add a new row with the question and answer in the correct columns. Restart the app to load the updated data.,Features
+What is the typing animation in this chatbot?,The chatbot displays responses character by character to simulate a natural human-like typing effect making the conversation feel more engaging.,Features
+How do I run this chatbot project?,"Install the dependencies first by running: py -m pip install -r requirements.txt — then start the app by running: py -m streamlit run app.py — The app will open automatically in your browser.",Setup
+What Python version is required for this project?,This project requires Python 3.10 or higher. It has been developed and tested on Python 3.14 on Windows 10 and 11.,Setup
+How do I install the project dependencies?,Run this command in your terminal inside the project folder: py -m pip install -r requirements.txt — This will install streamlit, rapidfuzz, and pandas automatically.,Setup
+Does this project work on Windows?,Yes. This project is fully compatible with Windows 10 and Windows 11. No Docker or virtual machines are required.,Setup
+Does this project work on macOS or Linux?,"Yes. The project works on macOS and Linux. Use python3 instead of py when running commands on those systems.",Setup
+Do I need to install TensorFlow or PyTorch?,No. This project does not use TensorFlow, PyTorch, SciPy, or NumPy. It only requires streamlit, rapidfuzz, and pandas.,Setup
+Why is the chatbot giving wrong answers?,This can happen if your question is very different from the available FAQs. Try rephrasing your question using keywords related to the topic you want help with.,Troubleshooting
+Why is the app not starting?,Make sure all dependencies are installed by running py -m pip install -r requirements.txt and that you are running the command from inside the project folder.,Troubleshooting
+Why is my chat not being saved?,Check that the data folder exists in the project directory. The chatbot creates it automatically on first launch. Make sure you have write permission in the project folder.,Troubleshooting
+How do I fix a module not found error?,Run py -m pip install -r requirements.txt to install all missing packages. Make sure you are using the same Python environment where streamlit is installed.,Troubleshooting
+What should I do if the page shows an error?,Try refreshing the browser. If the error persists check the terminal where you ran streamlit for detailed error messages and contact support if needed.,Troubleshooting
+What is CodeAlpha's AI internship task list?,"The four main internship tasks are: Task 1 is Language Translation Tool, Task 2 is AI FAQ Chatbot, Task 3 is AI Music Generation, and Task 4 is Object Detection System.",Internship
+How do I become a good software engineer?,"To become a strong software engineer, focus on mastering data structures, algorithms, clean code practices, version control with Git, and building real projects consistently.",Career
+What skills do I need to learn for AI and machine learning?,"To learn AI and machine learning, focus on Python programming, mathematics including linear algebra and statistics, libraries like scikit-learn and pandas, and build hands-on projects.",Career
+How can I improve my programming skills?,Practice coding daily on platforms like LeetCode and HackerRank. Build personal projects, contribute to open source, read clean code books, and review other people's code regularly.,Career
+What is a good career path in technology?,Popular technology career paths include software engineering, data science, machine learning engineering, DevOps, cybersecurity, mobile development, and cloud architecture.,Career
+How do I prepare for a technical job interview?,"Study data structures and algorithms, practice coding problems daily, prepare system design basics, review your projects, and do mock interviews with peers or platforms like Pramp.",Career
+What is object detection?,Object detection is a computer vision technique that identifies and locates objects within images or video frames. It draws bounding boxes around detected objects and labels them.,AI Concepts
+What is a language translation tool?,A language translation tool converts text from one language to another using translation APIs or models. It helps bridge communication gaps across different languages.,AI Concepts
+What is AI music generation?,AI music generation uses machine learning models to compose original music automatically. It can generate melodies, rhythms, and harmonies in various styles without human input.,AI Concepts
+What is a chatbot?,A chatbot is a software application that simulates human conversation. It can answer questions, provide support, and complete tasks using rule-based logic or AI-powered matching.,AI Concepts

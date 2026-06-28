@@ -1,0 +1,72 @@
+[
+  {
+    "role": "user",
+    "content": "which is better chatgpt or claude?",
+    "timestamp": "2026-06-27 04:11:28",
+    "short_ts": "04:11 AM"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I couldn't find a suitable answer to your question. Please try rephrasing it, or browse the FAQ list in the sidebar. You can also contact our support team at support@codealpha.tech.",
+    "timestamp": "2026-06-27 04:11:28",
+    "short_ts": "04:11 AM",
+    "score": 85.5,
+    "category": "N/A"
+  },
+  {
+    "role": "user",
+    "content": "what is codealpha?",
+    "timestamp": "2026-06-27 04:11:44",
+    "short_ts": "04:11 AM"
+  },
+  {
+    "role": "assistant",
+    "content": "CodeAlpha is an innovative technology company dedicated to empowering developers and businesses with cutting-edge AI solutions and internship programs.",
+    "timestamp": "2026-06-27 04:11:44",
+    "short_ts": "04:11 AM",
+    "score": 100.0,
+    "category": "About"
+  },
+  {
+    "role": "user",
+    "content": "what is codealpha?",
+    "timestamp": "2026-06-28 05:41:31",
+    "short_ts": "05:41 AM"
+  },
+  {
+    "role": "assistant",
+    "content": "CodeAlpha is an innovative technology company dedicated to empowering developers and businesses with cutting-edge AI solutions and internship programs.",
+    "timestamp": "2026-06-28 05:41:31",
+    "short_ts": "05:41 AM",
+    "score": 100.0,
+    "category": "About"
+  },
+  {
+    "role": "user",
+    "content": "what is google?",
+    "timestamp": "2026-06-28 05:41:56",
+    "short_ts": "05:41 AM"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I couldn't find a suitable answer to your question. Please try rephrasing it, or browse the FAQ list in the sidebar. You can also contact our support team at support@codealpha.tech.",
+    "timestamp": "2026-06-28 05:41:56",
+    "short_ts": "05:41 AM",
+    "score": 85.5,
+    "category": "N/A"
+  },
+  {
+    "role": "user",
+    "content": "what is googlr?",
+    "timestamp": "2026-06-28 05:42:21",
+    "short_ts": "05:42 AM"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I couldn't find a suitable answer to your question. Please try rephrasing it, or browse the FAQ list in the sidebar. You can also contact our support team at support@codealpha.tech.",
+    "timestamp": "2026-06-28 05:42:21",
+    "short_ts": "05:42 AM",
+    "score": 85.5,
+    "category": "N/A"
+  }
+]
