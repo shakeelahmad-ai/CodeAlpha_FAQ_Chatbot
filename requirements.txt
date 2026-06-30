@@ -1,0 +1,13 @@
+# ── Core UI ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Fuzzy String Matching ────────────────────────────────────────────────────
+rapidfuzz>=3.9.0
+
+# ── Data Handling ────────────────────────────────────────────────────────────
+pandas>=2.2.0
+
+# ── Standard Library Only (no extra install needed) ─────────────────────────
+# csv, json, os, pathlib, random, re, time, datetime, unicodedata, base64
+# All built into Python 3.10+
+
